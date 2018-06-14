@@ -7,6 +7,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="spring-beans-auto-wiring"/>
 			<item value="spring-dependency-injection-xml"/>
 			<item value="spring-4-hello-world"/>
 		</list>
@@ -59,6 +60,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/tinhcao/on/workspace/spring/spring-core/spring-dependency-injection-xml"/>
 			<item value="/home/tinhcao/on/workspace/spring/spring-core/spring-4-hello-world"/>
 		</list>
 		<list key="projectNameTemplate">
