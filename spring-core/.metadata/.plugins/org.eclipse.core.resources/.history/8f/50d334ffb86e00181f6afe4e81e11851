@@ -1,0 +1,8 @@
+package com.tinhcao.spring.configuration;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Configuration {
+
+}

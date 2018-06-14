@@ -1,0 +1,25 @@
+INDEX VERSION 1.130+/home/tinhcao/on/workspace/spring/spring-core/.metadata/.plugins/org.eclipse.jdt.core
+2308769875.index
+1524488712.index
+3188284553.index
+3489471585.index
+3854598690.index
+1988861043.index
+2756152415.index
+715359467.index
+1741510659.index
+1563560946.index
+1963118613.index
+2078275272.index
+3528294444.index
+283743820.index
+2466275569.index
+3418999563.index
+2113676271.index
+2088834155.index
+3906665601.index
+1974619910.index
+1476901629.index
+3419028191.index
+2009549819.index
+3253254534.index

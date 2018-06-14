@@ -1,0 +1,6 @@
+package com.tinhcao.spring.configuration;
+
+@Configuration
+public class Configuration {
+
+}

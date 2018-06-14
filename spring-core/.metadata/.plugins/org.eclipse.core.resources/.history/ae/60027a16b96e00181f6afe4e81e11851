@@ -1,0 +1,6 @@
+package com.tinhcao.spring.config;
+
+@Configurati
+public class DependencyConfiguration {
+
+}

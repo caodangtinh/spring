@@ -1,0 +1,11 @@
+package com.tinhcao.spring.service;
+
+public class RSAEncryption implements Encryption {
+
+	@Override
+	public void encryptData() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

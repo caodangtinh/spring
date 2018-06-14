@@ -1,0 +1,9 @@
+package com.tinhcao.spring.app;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

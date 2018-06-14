@@ -1,0 +1,16 @@
+package com.tinhcao.spring.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.tinhcao.spring.service.ActiveMQMessaging;
+import com.tinhcao.spring.service.Messaging;
+
+@Configuration
+public class DependencyConfiguration {
+	
+	@Bean
+	public Messaging getMessaging() {
+		return new ActiveMQMessaging();
+	}
+}

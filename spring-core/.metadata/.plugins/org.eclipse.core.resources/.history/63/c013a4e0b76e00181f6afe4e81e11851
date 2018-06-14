@@ -1,0 +1,11 @@
+package com.tinhcao.spring.service;
+
+public class MessagingImpl implements Messaging {
+
+	@Override
+	public void sendMessage() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
