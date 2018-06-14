@@ -2,21 +2,23 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="communication" key="selection"/>
+		<item value="EmployeeAddress" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="EmployeeAddress"/>
+			<item value="applicationUser"/>
 			<item value="communication"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="336" key="DIALOG_WIDTH"/>
-		<item value="1|Arial|10.5|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="415" key="DIALOG_HEIGHT"/>
+		<item value="340" key="DIALOG_WIDTH"/>
+		<item value="1|Noto Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="433" key="DIALOG_HEIGHT"/>
 		<item value="793" key="DIALOG_X_ORIGIN"/>
 		<item value="250" key="DIALOG_Y_ORIGIN"/>
 	</section>

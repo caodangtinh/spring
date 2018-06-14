@@ -37,6 +37,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/tinhcao/learning/spring/websystique/spring/spring-core"/>
 			<item value="/home/tinhcao/on/workspace/spring/spring-core/spring-4-hello-world"/>
 		</list>
 		<list key="projectNameTemplate">

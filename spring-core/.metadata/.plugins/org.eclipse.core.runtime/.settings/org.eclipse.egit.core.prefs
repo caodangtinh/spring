@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=/home/tinhcao/on/workspace/spring/.git\:
-GitRepositoriesView.GitDirectories.relative=/home/tinhcao/on/workspace/spring/.git\:
+GitRepositoriesView.GitDirectories=/home/tinhcao/on/workspace/spring/.git\:/home/tinhcao/learning/spring/websystique/spring/.git\:
+GitRepositoriesView.GitDirectories.relative=/home/tinhcao/on/workspace/spring/.git\:/home/tinhcao/learning/spring/websystique/spring/.git\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

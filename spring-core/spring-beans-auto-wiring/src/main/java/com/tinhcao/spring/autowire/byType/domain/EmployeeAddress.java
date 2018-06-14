@@ -20,4 +20,9 @@ public class EmployeeAddress {
 		this.city = city;
 	}
 
+	@Override
+	public String toString() {
+		return "EmployeeAddress [street=" + street + ", city=" + city + "]";
+	}
+
 }

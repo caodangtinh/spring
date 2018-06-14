@@ -16,4 +16,8 @@
 <fullyQualifiedTypeName name="com.tinhcao.spring.service.Encryption"/>
 <fullyQualifiedTypeName name="com.tinhcao.spring.service.RSAEncryption"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="com.tinhcao.spring.autowire.byType.domain.EmployeeAddress"/>
+<fullyQualifiedTypeName name="com.tinhcao.spring.autowire.byType.domain.Employee"/>
+<fullyQualifiedTypeName name="com.tinhcao.spring.autowire.byconstructor.domain.Instrument"/>
+<fullyQualifiedTypeName name="com.tinhcao.spring.autowire.byconstructor.domain.Performer"/>
 </qualifiedTypeNameHistroy>
