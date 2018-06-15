@@ -2,4 +2,8 @@
 **/.recommenders/**
 **/target/**
 **/ws/**
+**/.settings/**
+**/.classpath
+**/.project
+**/.springBeans
 .recommenders

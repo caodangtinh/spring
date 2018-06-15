@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- Autowire by name -->
+	<bean id="applicationUser"
+		class="com.tinhcao.spring.autowire.byname.domain.ApplicationUser">
+		<property name="name" value="tinhcao" />
+	</bean>
+	<bean id="application" class="com.tinhcao.spring.autowire.byname.domain.Application"
+		autowire="byName">
+		<!-- <property name="applicationUser" ref="applicationUser" /> -->
+	</bean>
+
+
+	<!-- Autowire by type -->
+	<bean id="employeeAdress"
+		class="com.tinhcao.spring.autowire.byType.domain.EmployeeAddress">
+		<property name="city" value="Hanoi" />
+		<property name="street" value="Van Phuc" />
+	</bean>
+	<bean id="employee" class="com.tinhcao.spring.autowire.byType.domain.Employee"
+		autowire="byType">
+	</bean>
+
+	<!-- Autowire by constructor -->
+	<bean id="instrument"
+		class="com.tinhcao.spring.autowire.byconstructor.domain.Instrument"
+		p:name="PIANO">
+	</bean>
+	<bean id="instrument1"
+		class="com.tinhcao.spring.autowire.byconstructor.domain.Instrument"
+		p:name="PIANO">
+	</bean>
+	<bean id="instrument2"
+		class="com.tinhcao.spring.autowire.byconstructor.domain.Instrument"
+		p:name="PIANO">
+	</bean>
+	<bean id="performer"
+		class="com.tinhcao.spring.autowire.byconstructor.domain.Performer"
+		autowire="constructor" />
+
+	<!-- Autowire by no -->
+	<bean id="license" class="com.tinhcao.spring.autowire.byno.domain.License"
+		p:number="ABCD1234" />
+	<bean id="car" class="com.tinhcao.spring.autowire.byno.domain.Car"
+		p:name="BMW 320i" />
+	<bean id="driver" class="com.tinhcao.spring.autowire.byno.domain.Driver"
+		autowire="no">
+		<property name="license" ref="license" />
+		<constructor-arg name="car" ref="car" />
+	</bean>
+
+</beans>
