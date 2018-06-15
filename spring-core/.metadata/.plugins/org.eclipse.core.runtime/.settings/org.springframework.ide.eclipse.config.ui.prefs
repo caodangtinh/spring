@@ -1,5 +1,0 @@
-//com.springsource.config.ui.prefs.activePageIndex\:/spring-4-hello-world/src/main/resources/hello-world-configuration.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
-//com.springsource.config.ui.prefs.activePageIndex\:/spring-beans-auto-wiring/src/main/resources/autowire-configuration.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
-//com.springsource.config.ui.prefs.activePageIndex\:/spring-dependency-injection-xml/src/main/resources/bean-configuration.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
-com.springsource.config.ui.prefs.tabs.dialog=always
-eclipse.preferences.version=1

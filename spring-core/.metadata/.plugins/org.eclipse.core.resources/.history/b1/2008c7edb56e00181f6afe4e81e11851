@@ -1,6 +1,0 @@
-package com.tinhcao.spring.config;
-
-
-public class HelloWorldConfiguration {
-
-}

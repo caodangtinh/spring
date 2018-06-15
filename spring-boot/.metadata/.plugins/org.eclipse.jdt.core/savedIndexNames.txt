@@ -1,3 +1,0 @@
-INDEX VERSION 1.130+/home/tinhcao/on/workspace/spring/spring-boot/.metadata/.plugins/org.eclipse.jdt.core
-1924484980.index
-4054180099.index
