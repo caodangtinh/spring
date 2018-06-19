@@ -7,13 +7,13 @@ import org.springframework.stereotype.Service;
 
 @Service("fileService")
 public class FileServiceImpl implements FileService {
-	@Value("${jdbc.url:jdbc://localhost:3306/test}")
+	@Value("${jdbc.url}")
 	private String url;
 
-	@Value(value = "${jdbc.username:tinhcao}")
+	@Value(value = "${jdbc.username}")
 	private String username;
 
-	@Value(value = "${jdbc.password:1234}")
+	@Value(value = "${jdbc.password}")
 	private String password;
 
 	@Autowired
